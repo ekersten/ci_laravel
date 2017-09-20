@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('new_page', function() {
 	return view('new_page');
 });
+
+Route::get('another_page', function() {
+	return view('another_page');
+});
